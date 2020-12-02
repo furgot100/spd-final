@@ -8,6 +8,10 @@
     box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
 }
   
+.navbar-expand-lg{
+    background-color: #ff8f5e;
+}
+
 .navbar .navbar-brand {
     font-weight: 600;
     margin: 5px 0px;
@@ -197,4 +201,72 @@
 .btn-lg {
     font-size: 14px;
     padding: 11px 30px;
+}
+
+
+/* Signin page */
+.card-register {
+    background-color: #ff8f5e;
+    border-radius: 8px;
+    color: #fff;
+    max-width: 350px;
+    margin: 20px 0 70px;
+    min-height: 400px;
+    padding: 30px;
+}
+
+.col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+
+.card-register label {
+    margin-top: 15px;
+}
+
+.card-register .btn {
+    margin-top: 30px;
+}
+
+.card .content {
+    padding: 15px 15px 10px 15px;
+}
+
+.card-price .category {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-price .price {
+    font-weight: 300;
+    text-align: center;
+    font-size: 66px;
+}
+
+.card-price .list-lines li {
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.card-price .footer {
+    padding: 5px 15px 10px;
+}
+
+
+.card-price.card-price-best-deal {
+    margin-top: -25px;
+}
+
+.card-price {
+    position: relative;
 }
