@@ -17,6 +17,28 @@
     text-transform: uppercase;
 }
 
+.navbar .navbar-nav .nav-item .nav-link {
+    line-height: 1.6;
+    margin: 15px 3px;
+    padding: 10px 15px;
+    opacity: .8;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #66615b;
+}
+
+.nav-item {
+    color: #66615B;
+}
+
+.body {
+    color: #66615b;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+}
+
 .page-header {
     background-color: #B2AFAB;
     background-position: center center;
@@ -48,6 +70,29 @@
 
 .btn-round {
     border-radius: 30px;
+}
+
+.btn-danger {
+    background-color: #f5593d;
+    border-color: #f5593d;
+    color: #fff;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.btn-neutral.btn-link {
+    color: #fff;
+}
+
+.btn-danger.btn-link {
+    color: #f5593d;
+}
+.btn.btn-border, .btn.btn-link {
+    background-color: transparent;
+}
+.btn-link {
+    border-color: transparent!important;
+    padding: 7px 18px;
 }
 
 .main .section:first-of-type {
@@ -83,6 +128,7 @@
     font-size: 1.35em;
     line-height: 1.4em;
 }
+
 .brand, .h1, .h2, .h3, .h4, .h5, .h6, .navbar, .td-name, a, button, h1, h2, h3, h4, h5, h6, input, p, select, td, textarea {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -90,5 +136,65 @@
     font-weight: 300;
 }
   
+.card.card-plain {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+}
 
+.card-title {
+    color: #fff!important;
+}
 
+.card-category {
+    color: #fff!important;
+}
+
+.card h6 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.card-profile .card-body .card-category {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.h6, h6 {
+    font-size: .9em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card-description {
+    color: hsla(0,0%,100%,.7);
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+    color: #fff!important;
+}
+
+.h2, h2 {
+    font-size: 2.8em;
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.contact-form .btn {
+    margin-top: 30px;
+}   
+
+.btn-lg {
+    font-size: 14px;
+    padding: 11px 30px;
+}
